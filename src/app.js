@@ -19,7 +19,5 @@ app.use('/myPlaces', myPlacesRouter)
 
 app.use(express.static('data'));
 
-app.get('/', (req, res) => {
-    res.send('hello world')
-})
+
 
