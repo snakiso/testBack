@@ -1,4 +1,4 @@
-[
+export const myPlaces = [
   {
     "id": "fgv14345zx",
     "address": "Москва, ул. Тверская, 1",
