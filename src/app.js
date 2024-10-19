@@ -13,11 +13,10 @@ app.use(
 );
 app.use(express.json())
 
-app.use('/parkings', ParkingRouter)
-app.use('/notifications', NotificationRouter)
-app.use('/myPlaces', myPlacesRouter)
-
-app.use(express.static('data'));
-
+// app.use('/parkings', ParkingRouter)
+// app.use('/notifications', NotificationRouter)
+// app.use('/myPlaces', myPlacesRouter)
+//
+//
 
 
