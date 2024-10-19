@@ -1,6 +1,6 @@
-import {ParkingRouter} from "./routes/parkings.js";
-import {NotificationRouter} from "./routes/notifications.js";
-import {myPlacesRouter} from "./routes/myPlaces.js";
+// import {ParkingRouter} from "./routes/parkings.js";
+// import {NotificationRouter} from "./routes/notifications.js";
+// import {myPlacesRouter} from "./routes/myPlaces.js";
 import express from 'express';
 import cors from 'cors';
 export const app = express()
