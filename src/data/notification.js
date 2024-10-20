@@ -1,4 +1,4 @@
-[
+export const notifications = [
   {
     "id": "abc567",
     "title": "Заголовок 10",

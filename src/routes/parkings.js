@@ -1,8 +1,9 @@
 import {Router} from "express";
-import json from '../../../myback/src/data/freePlaces.json' assert { type: 'json' };
+import {freePlaces} from "../data/freePlaces.js";
+
 export const ParkingRouter = Router()
 
 ParkingRouter.get('/',  (req, res) => {
-        return res.status(200).send(json)
+        return res.status(200).json(freePlaces)
     }
 )

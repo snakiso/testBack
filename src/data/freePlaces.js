@@ -1,4 +1,4 @@
-{
+export const freePlaces = {
   "parking-id1": {
     "coordinates": [37.719044, 55.753842],
     "freePlacesCount": 5,
