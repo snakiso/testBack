@@ -8,12 +8,12 @@ PromoCodeInfo.post('/',  (req, res) => {
     if(promo_code) {
         let resuslt = promoCode[promo_code]
        if(!resuslt){
-           return res.status(404).json({status: false, payload: {message: 'Купон не был найден'}})
+           return res.status(204).json({status: false, payload: {message: 'Купон не был найден'}})
        } else{
            return res.status(200).json({status: true, payload: {message: 'Ok', discount: resuslt.discount}})
        }
     }else{
-        return res.status(200).json('hello world')
+        return res.status(404).json('hello world')
     }
     }
 )
