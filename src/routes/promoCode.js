@@ -16,3 +16,8 @@ PromoCodeInfo.post('/',  (req, res) => {
 
     }
 )
+
+PromoCodeInfo.get('/',  (req, res) => {
+                return res.status(200).json('hello world')
+    }
+)
