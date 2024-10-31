@@ -3,6 +3,8 @@ import {NotificationRouter} from "./routes/notifications.js";
  import {myPlacesRouter} from "./routes/myPlaces.js";
 import express from 'express';
 import cors from 'cors';
+import {PromoCodeInfo} from "./routes/promoCode.js";
+
 export const app = express()
 app.use(
     cors({
@@ -16,6 +18,7 @@ app.use(express.json())
 app.use('/parkings', ParkingRouter)
 app.use('/notifications', NotificationRouter)
 app.use('/myPlaces', myPlacesRouter)
+app.use('/promo-code', PromoCodeInfo)
 //
 //
 
