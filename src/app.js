@@ -4,6 +4,7 @@ import {NotificationRouter} from "./routes/notifications.js";
 import express from 'express';
 import cors from 'cors';
 import {PromoCodeInfo} from "./routes/promoCode.js";
+import {Ticket} from "./routes/Ticket.js";
 
 export const app = express()
 app.use(
@@ -19,6 +20,7 @@ app.use('/parkings', ParkingRouter)
 app.use('/notifications', NotificationRouter)
 app.use('/myPlaces', myPlacesRouter)
 app.use('/promo-code', PromoCodeInfo)
+app.use('/parking-tickets/info', Ticket)
 //
 //
 
