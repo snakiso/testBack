@@ -1,5 +1,5 @@
 export const invite = {
-    "type": "out",
+    "type": "in",
     "user": {
         "phone": "+79999896300",
         "public_name": "Иван"
